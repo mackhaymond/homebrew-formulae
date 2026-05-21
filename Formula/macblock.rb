@@ -5,13 +5,13 @@ class Macblock < Formula
   include Language::Python::Virtualenv
 
   desc "Local DNS sinkhole for macOS using dnsmasq"
-  homepage "https://github.com/SpyicyDev/macblock"
+  homepage "https://github.com/mackhaymond/macblock"
 
-  url "https://github.com/SpyicyDev/macblock/archive/refs/tags/v0.2.10.tar.gz"
+  url "https://github.com/mackhaymond/macblock/archive/refs/tags/v0.2.10.tar.gz"
   sha256 "5c21ec43ca6d922377547c372340f1e864554c105f436516e737b35d448ef5ee"
   license "MIT"
 
-  head "https://github.com/SpyicyDev/macblock.git", branch: "main"
+  head "https://github.com/mackhaymond/macblock.git", branch: "main"
 
   depends_on "dnsmasq"
   depends_on :macos
