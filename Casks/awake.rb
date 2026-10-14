@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "awake" do
-  version "1.4.1"
-  sha256 "b9f96c8b4bebea21a7aa3b8284f0ace5b4011079b8642cfb59f952e515f0928e"
+  version "1.4.2"
+  sha256 "5a13a4332baba6506c9805344f08a026d10577d9ae6989eec593b1694b3ed77d"
 
   url "https://github.com/mackhaymond/Awake/releases/download/v#{version}/Awake-v#{version}.zip"
   name "Awake"
